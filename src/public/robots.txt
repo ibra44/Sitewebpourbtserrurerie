@@ -1,0 +1,8 @@
+# Fichier robots.txt pour BT Serrurerie
+# Permet aux moteurs de recherche d'indexer tout le site
+
+User-agent: *
+Allow: /
+
+# Sitemap (à créer après avoir un nom de domaine)
+# Sitemap: https://www.bt-serrurerie.fr/sitemap.xml

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
   import { defineConfig } from 'vite';
   import react from '@vitejs/plugin-react-swc';
@@ -58,3 +59,10 @@
       open: true,
     },
   });
+=======
+import { defineConfig } from 'vite'
+
+export default defineConfig({
+  base: '/Sitewebpourbtserrurerie/',
+})
+>>>>>>> a13c526cbecb216fda2da1a133eb98968f7d42c5
