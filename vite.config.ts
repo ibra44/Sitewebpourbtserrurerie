@@ -1,10 +1,10 @@
-<<<<<<< HEAD
 
   import { defineConfig } from 'vite';
   import react from '@vitejs/plugin-react-swc';
   import path from 'path';
 
   export default defineConfig({
+    base: '/Sitewebpourbtserrurerie/',
     plugins: [react()],
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
@@ -59,10 +59,3 @@
       open: true,
     },
   });
-=======
-import { defineConfig } from 'vite'
-
-export default defineConfig({
-  base: '/Sitewebpourbtserrurerie/',
-})
->>>>>>> a13c526cbecb216fda2da1a133eb98968f7d42c5
